@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<?import java.lang.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<VBox fx:id="root" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.demo.FxControl">   
+<children>
+    <Button text="Add item" onAction="#onClick" fx:id="addItem"  />
+    <Label fx:id="label"/>
+</children>
+</VBox>
